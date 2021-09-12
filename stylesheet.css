@@ -55,8 +55,9 @@ body {
 
 
     .large-caption {
-        
-        font-size:2.75em;
+        font-family: "Helveticatwo";
+        font-size:2.5em;
+        margin: 0px;
     }
 
 .container {
@@ -123,8 +124,12 @@ body {
         }
 
 #section1 {
-    width: 90%;
+    width: 100%;
     height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -136,18 +141,30 @@ body {
 }
 
     .tip-wrapper {
-        height: 80vh;
+        width: 100%;
+        height: 90%;
+        padding-bottom: 5em;
     }
 
      #tip2 {
-         
+         width: 100%;
+         margin-left: 50%;
      }
 
 .section4-column-wrapper {
+    height: 100%;
+    padding-top: 8em;
+    padding-bottom: 8em;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 }
+
+
+    .section4-column-right {
+        padding-left: 8em;
+    }
+
 
 .section5-column-wrapper {
     display: flex;
