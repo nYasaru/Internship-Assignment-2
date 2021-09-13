@@ -15,7 +15,66 @@
 </head>
 <body>
 
-<div class="navbar">
+<div class="navbar-wrapper">
+
+    <ul>
+        <!-- 1 -->
+        <li class="navlink">
+            <div class="section-link-wrapper">
+                <a href="#section1" class="section-link">1</a> 
+                <p class="nav-help-text">Intro</p>
+               
+               
+            </div>
+             <div style="margin-top:1em; width: 1px; height: 2em; background-color:#efefef;">                
+            </div>    
+        </li>
+        <!-- 2 -->
+        <li class="navlink">
+            <div class="section-link-wrapper">
+                <a href="#section2" class="section-link">2</a>  
+                <p class="nav-help-text">Profile</p>
+            </div>
+             <div style="margin-top:1em; width: 1px; height: 2em; background-color:#efefef;">                
+            </div>    
+        </li>
+        <!-- 3 -->
+        <li class="navlink">
+            <div class="section-link-wrapper">
+                <a href="#section3" class="section-link">3</a> 
+                <p class="nav-help-text">Insight</p>
+            </div>
+             <div style="margin-top:1em; width: 1px; height: 2em; background-color:#efefef;">                
+            </div>    
+        </li>
+        <!-- 4 -->
+        <li class="navlink">
+            <div class="section-link-wrapper">
+                <a href="#section4" class="section-link">4</a> 
+                <p class="nav-help-text" >Experience</p>
+            </div>
+             <div style="margin-top:1em; width: 1px; height: 2em; background-color:#efefef;">                
+            </div>    
+        </li>
+        <!-- 5 -->
+        <li class="navlink">
+            <div class="section-link-wrapper">
+                <a href="#section5" class="section-link">5</a> 
+                <p class="nav-help-text">Personal</p>
+            </div>
+             <div style="margin-top:1em; width: 1px; height: 2em; background-color:#efefef;">                
+            </div>    
+        </li>
+        <!-- 6 -->
+        <li class="navlink">
+            <div class="section-link-wrapper">
+                <a href="#section6" class="section-link">6</a> 
+                <p class="nav-help-text" " >Additional</p>
+            </div>
+              
+        </li>
+    </ul>
+
 
 </div>
 
@@ -32,11 +91,9 @@
                     <h1 data-scroll-class="scrollin2"  data-scroll style="width: 100%; text-align: right;" class="overlayanimation">OVERVIEW</h1>
                 </div>
             </div>
-            
-                
                     <div class="hero-content-bottom">   
                         <div class="lineParent">
-                            <h1 data-scroll-class="scrollin3" data-scroll  id="header-text" class="overlayanimation">- SEM 2 2021</h1>
+                            <h1 data-scroll-class="scrollin1-small" data-scroll  id="header-text" class="overlayanimation">- SEM 2 2021</h1>
                          </div>
                     </div>
                 
@@ -357,7 +414,7 @@
 <script>
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector(".locomotive-scroll"),
-  smooth: true,
+  smooth: false,
   multiplier: 1.0,
   class:'reveal', 
 }); 
