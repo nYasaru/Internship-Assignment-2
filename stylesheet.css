@@ -301,6 +301,31 @@ li {
     height: 100%;
 }
 
+.section5-column-wrapper-home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+} 
+
+.section5-column-left-home {
+    width: 100%;
+}
+
+.section5-column-right-home {
+    width: 30%;
+    position: absolute;
+    right: 15%;
+}
+
+
+    .summaryimage {
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+
+
+
 
 
 .section5-column-wrapper {
