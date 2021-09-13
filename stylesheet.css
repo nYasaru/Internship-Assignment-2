@@ -296,6 +296,12 @@ li {
          margin-left: 50%;
      }
 
+
+        .tipnum {
+            margin-bottom:-.15em; 
+            margin-right:.2em;
+        }
+
 .section4-column-wrapper {
     height: 100%;
     padding-top: 8em;
@@ -697,6 +703,11 @@ footer h4 {
         margin-left: -1em;
     }
 
+        
+    .tipnum {
+        margin-bottom:0em; 
+        margin-right:.2em;
+    }
     
 /* Section 4 */
 
