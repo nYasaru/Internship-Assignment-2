@@ -600,6 +600,13 @@ footer h4 {
     
     }
 
+    .bg-image1 {
+        width: 150%;
+        position: absolute;
+        z-index: -5;
+        top:0;
+        left: -50;
+    }
 
     body {
         font-size: .8em;
