@@ -10,6 +10,10 @@
     src: url(Assets/Fonts/HelveticaLTStd-Roman.otf);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: "Helvetica", sans-serif;
     background-color: #1d1d1d;
@@ -73,7 +77,10 @@ body {
     }
 
     h5{
-
+        font-size: 2em;
+        padding: 0px;
+        margin: 0px;
+        letter-spacing: -.001em;
     }
 
 
@@ -224,12 +231,12 @@ li {
     }
 
         .content-left {
-            width: 40%;
+            width: 50%;
             margin-right: 2em;
         }
 
         .content-right {
-            width: 40%;
+            width: 50%;
         }
 
 #section1 {
@@ -281,9 +288,12 @@ li {
     align-items: flex-end;
 }
 
+    .section4-column-left {
+        margin-right: 2em;
+    }
 
     .section4-column-right {
-        padding-left: 8em;
+        padding-left: 4em;
     }
 
 .section5-content {
@@ -305,6 +315,7 @@ li {
 
 .section5-column-left {
     overflow: hidden;
+    width: 70%;
 }
 
 .flexcontainer-row {
@@ -326,6 +337,19 @@ li {
     }
 
 
+.section5-column-left {
+    width: 70%;
+    margin-right: 2em;
+}
+
+
+.videolast {
+    max-width: 30%;
+}
+
+
+
+
 footer {
     background-color:#fff;
     margin: 0;
@@ -344,6 +368,7 @@ footer h4 {
 footer img {
     
 }
+
 
 .footer-column-wrapper {
     display: flex;
