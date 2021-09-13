@@ -85,15 +85,17 @@ body {
 }    
 
 .section {
-    margin-top: 10em;
-    margin-bottom: 10em;
+    margin-top: 15em;
+    margin-bottom: 15em;
 }
 
 .section:first-child {
     margin-top: 0px;
 }
 
-
+.flexcontainer-row {
+    overflow:hidden;
+}
 
 
     .row {
@@ -116,6 +118,7 @@ body {
     }
 
     .section-content {
+        overflow: hidden;
         padding-top: 1em;
         width: 100%;
         display: flex;
@@ -141,14 +144,26 @@ body {
 #section1 {
     width: 100%;
     height: 100vh;
+    
     margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+    .hero-content-top {
+        margin-top: 2em;
+    }
+
+
+    .hero-content-bottom {
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
 
 .section3-column-wrapper {
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -239,3 +254,103 @@ footer img {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+
+
+.lineParent {
+    overflow:hidden;
+    
+    margin:0;
+}
+
+
+
+
+.overlayanimation {
+    transform: translateY(150%);
+    
+}
+
+.overlayanimation2 {
+    transform: translateY(-150%);
+}
+
+.scrollin1 {
+    transform:translateY(0%);
+    transition: transform 1.5s ease-in-out;
+}
+
+.scrollin1-small {
+    transform:translateY(0%);
+    transition: transform .8s ease-in-out;
+    
+}
+
+
+.scrollin2-small {
+    transform:translateY(0%);
+    transition: transform 1.4s ease-in-out;
+}
+
+
+.scrollin2 {
+    transform:translateY(0%);
+    transition: transform 2s ease-in-out;
+}
+
+
+.scrollin3 {
+    transform:translateY(0%);
+    transition: transform 2.5s ease-in-out;
+}
+
+.scrollin4 {
+    transform:translateY(0%);
+    transition: transform 1s ease-in-out;
+    
+}
+
+.scrollin5 {
+    transform:translateY(0%);
+    transition: transform 1.5s ease-in-out;
+    
+
+}
+
+
+.scrollin6 {
+    transform:translateY(0%);
+    transition: transform 2s ease-in-out ;
+    transition-delay: .5s;
+
+}
+
+.scrollin7 {
+    transform:translateY(0%);
+    transition: transform 2.2s ease-in-out ;
+    transition-delay: .5s;
+
+}
+
+
+.faded {
+    opacity: 0;
+    
+
+}
+
+.fadein {
+    opacity: 1;
+    transition: opacity 2s ease-in;
+    transition-delay: .5s;
+}
+
+.fadein2 { 
+    opacity: 1;
+    transition: opacity 3s ease-out;
+    
+}
+
+
